@@ -11,6 +11,7 @@
 			var txt = document.createTextNode(nameList[i]);
 			goat.appendChild(txt);
 			rst.appendChild(goat);
+			console.log("forloop");
 		}
 		console.log("working");
 	}
